@@ -1,34 +1,43 @@
 /* ===================================
    CSS Variables & Theme Configuration
+   Beige / Brown Theme
    =================================== */
 
 :root {
-    /* Light Theme Colors */
-    --bg-primary: #ffffff;
-    --bg-secondary: #f8f9fa;
-    --bg-card: #ffffff;
-    --text-primary: #1a1a1a;
-    --text-secondary: #666666;
-    --accent: #2563eb;
-    --accent-hover: #1d4ed8;
-    --border: #e5e7eb;
-    --shadow: rgba(0, 0, 0, 0.08);
-    --shadow-hover: rgba(0, 0, 0, 0.12);
+    /* Light Theme Colors – Warm & Creamy */
+    --bg-primary: #f5f1ea;      /* cremiger Hintergrund */
+    --bg-secondary: #ebe4d8;    /* sanftes Beige */
+    --bg-card: #fffaf3;         /* helles Creme für Karten */
+    
+    --text-primary: #3e3426;    /* dunkles Braun statt Schwarz */
+    --text-secondary: #7a6a58;  /* weiches Braun-Grau */
+    
+    --accent: #9c7a5a;          /* warmes Braun als Hauptfarbe */
+    --accent-hover: #7e5f44;    /* dunkler beim Hover */
+    
+    --border: #ded6c8;          /* dezente Linien */
+    
+    --shadow: rgba(60, 45, 25, 0.08);
+    --shadow-hover: rgba(60, 45, 25, 0.14);
     
     /* Transitions */
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Dark Theme */
+/* Dark Theme – Warm Coffee Style */
 [data-theme="dark"] {
-    --bg-primary: #0f172a;
-    --bg-secondary: #1e293b;
-    --bg-card: #1e293b;
-    --text-primary: #f1f5f9;
-    --text-secondary: #94a3b8;
-    --accent: #3b82f6;
-    --accent-hover: #60a5fa;
-    --border: #334155;
-    --shadow: rgba(0, 0, 0, 0.3);
-    --shadow-hover: rgba(0, 0, 0, 0.5);
+    --bg-primary: #1c1814;      /* dunkles warmes Braun */
+    --bg-secondary: #2a241e;
+    --bg-card: #2f2922;
+    
+    --text-primary: #f2ece3;    
+    --text-secondary: #cbbba7;
+    
+    --accent: #c2a27c;          /* sandiges Beige als Akzent */
+    --accent-hover: #e0c3a0;
+    
+    --border: #3f372f;
+    
+    --shadow: rgba(0, 0, 0, 0.35);
+    --shadow-hover: rgba(0, 0, 0, 0.55);
 }
